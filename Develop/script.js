@@ -29,19 +29,22 @@ function generatePassword() {
   var numberChoice = window.confirm("Would you like to use Numbers?");
   console.log("Numbers? " + numberChoice);
   
-  var passwordLength = window.prompt("How many characters would you like to use? Between 8 - 128", 8);
+  var passwordLength = window.prompt("How many characters would you like to use? Between 8 - 128.", 8);
   
   var minimum = passwordLength >= 8
   var maximum = passwordLength <= 128
+  var criteria = passwordLength !== String
+
   var resultPassword = ""
   
+  
   if (!alphaChoice && !lowerChoice && !specialChoice && !numberChoice){
-    alert("Your password must contain at least 1 character type")
+    alert("Your password must contain at least 1 character type.")
     return;
   }
 
-  else if (!minimum || !maximum) {
-    alert("Your password must be between 8 - 128 characters")
+  else if (!minimum || !maximum || criteria ) {
+    alert("Your password must be a number between 8 - 128 characters.")
     return;
   }
 
