@@ -7,10 +7,13 @@ Overall, the creation of this project helped me better understand the applicatio
 
 ## Table of Contents
 
--[Installation](#installation)
--[Usage](#usage)
--[Credits](#credits)
--[Lisence](#license)
+- [Installation](#installation)
+
+- [Usage](#usage)
+
+- [Credits](#credits)
+
+- [Lisence](#license)
 
 ## Installation
 
@@ -22,15 +25,15 @@ N/A
 
 - Website:
 
-![Main content of website](assets/images/screenshot-website.png)
+![Main content of website](Assets/images/screenshot-website.png)
 
 - Click the "Generate Password" button to be prompted with a few questions about the criteria that you would like your password to contain.
 
-![Questions on website](assets/images/screenshot-question.png)
+![Questions on website](Assets/images/screenshot-question.png)
 
 - There will be 5 prompts, each asking if you would like to include upper case, lower case letters, special characters, numbers, and how many characters you would like your password to be respectively. After answering all the questions the website will present you with your new password.
 
-![JavaScript code](assets/images/Screenshot-code.png)
+![JavaScript code](Assets/images/Screenshot-code.png)
 
 - This is the function of the code that determines the outcome and randomizes what character and character types are selected. The code has a "truly" random approach, as every character type has an equal chance of being picked from the list, no matter what character combination you decide to choose.
 
