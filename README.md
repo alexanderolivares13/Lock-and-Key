@@ -13,7 +13,7 @@ Overall, the creation of this project helped me better understand the applicatio
 
 - [Credits](#credits)
 
-- [Lisence](#license)
+- [License](#license)
 
 ## Installation
 
