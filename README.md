@@ -3,7 +3,7 @@
 ## Description
 
 - This project was built to test and further demonstrate my understanding of JavaScript principles and it's application. The website generates a random password for the user, while taking into consideration what criteria the user might want for their password. Using arrays consisting of upper case, lower case letters, symbols, numbers, and password length.
-Overall, the creation of this project helped me better understand the applications and what is possible when coompounding the JavaScript language with a functioning website to enhance user experience.
+Overall, the creation of this project helped me better understand the applications and what is possible when compounding the JavaScript language with a functioning website to enhance user experience. Furthermore, I learned how notoriously tricky the structure of the JavaScript code can be and it will further serve as a learning experience that I can look back to and remember in the future.
 
 ## Table of Contents
 
