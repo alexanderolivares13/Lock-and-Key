@@ -82,6 +82,7 @@ function generatePassword() {
       var indexNumber = Math.floor(Math.random() * numbers.length);
         
 // The randomChar variable nests all 4 array character types and randomizes which character type is picked from all 4 lists. When an array is picked, the index variable picks a random character from the selected array
+// Grouping the 4 arrays into one array allows for an equal percentage for any of the character list to be chosen
 
       var randomChar = [alphaC[indexAletter], lowerC[indexLletter], special[indexSpecial], numbers[indexNumber]];
 
