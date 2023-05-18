@@ -14,7 +14,9 @@ var alphaC = ["A", "B","C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N
 var lowerC = ["a", "b","c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
   
 var special = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "`", "{", "|", "}", "~"];
-  
+ 
+// omitted 0
+
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // establishing the function that is going to return the password as a result
